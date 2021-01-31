@@ -46,29 +46,29 @@ EC2 무료 제공 cpu와 메모리 확인 후 검토 및 시작
 ![image](https://user-images.githubusercontent.com/74689088/106374968-4578fd00-63cb-11eb-937f-dea4b8368ff8.png)  
 
 탄력적 IP 주소 연결
-![image](https://user-images.githubusercontent.com/74689088/106374983-5cb7ea80-63cb-11eb-8bfc-d187193b3d9e.png)
+![image](https://user-images.githubusercontent.com/74689088/106374983-5cb7ea80-63cb-11eb-8bfc-d187193b3d9e.png)    
+  
+인스턴스 선택 후 연결   
+![image](https://user-images.githubusercontent.com/74689088/106375004-8f61e300-63cb-11eb-9122-0563e2fe44d7.png)  
 
-인스턴스 선택 후 연결
-![image](https://user-images.githubusercontent.com/74689088/106375004-8f61e300-63cb-11eb-9122-0563e2fe44d7.png)
+인스턴스 접속 SSH   
+Windows의 경우 puttygen을 사용하여 개인키를 생성하여 접속   
+![image](https://user-images.githubusercontent.com/74689088/106375020-c932e980-63cb-11eb-9562-7687c9a7951f.png)  
 
-인스턴스 접속 SSH  
-Windows의 경우 puttygen을 사용하여 개인키를 생성하여 접속
-![image](https://user-images.githubusercontent.com/74689088/106375020-c932e980-63cb-11eb-9562-7687c9a7951f.png)
+Load로 이전에 다운로드받은 Pem파일 로드    
+로드 후 Save Private key로 개인키를 로컬에 저장  
+![image](https://user-images.githubusercontent.com/74689088/106375038-ebc50280-63cb-11eb-8380-0eaf4bee29a6.png)  
 
-Load로 이전에 다운로드받은 Pem파일 로드  
-로드 후 Save Private key로 개인키를 로컬에 저장
-![image](https://user-images.githubusercontent.com/74689088/106375038-ebc50280-63cb-11eb-8380-0eaf4bee29a6.png)
+Putty 접속 방법    
+Host Name에 인스턴스에 할당한 IP 입력  
+![image](https://user-images.githubusercontent.com/74689088/106375049-11eaa280-63cc-11eb-8e41-ad64c846dc60.png)  
 
-Putty 접속 방법  
-Host Name에 인스턴스에 할당한 IP 입력
-![image](https://user-images.githubusercontent.com/74689088/106375049-11eaa280-63cc-11eb-8e41-ad64c846dc60.png)
+왼쪽 옵션 SSH -> Auth -> private Key file for Authentication 에서 이전에 생성한 개인키 로드  
+![image](https://user-images.githubusercontent.com/74689088/106375069-44949b00-63cc-11eb-9808-90a324d8f10b.png)  
 
-왼쪽 옵션 SSH -> Auth -> private Key file for Authentication 에서 이전에 생성한 개인키 로드
-![image](https://user-images.githubusercontent.com/74689088/106375069-44949b00-63cc-11eb-9808-90a324d8f10b.png)
-
-Open하여 SSH 접속 로그인
-ubuntu 입력 후 imported-openssh-key로 로그인
-![image](https://user-images.githubusercontent.com/74689088/106375083-760d6680-63cc-11eb-96c0-4304c6bf71db.png)
+Open하여 SSH 접속 로그인  
+ubuntu 입력 후 imported-openssh-key로 로그인  
+![image](https://user-images.githubusercontent.com/74689088/106375083-760d6680-63cc-11eb-96c0-4304c6bf71db.png)  
 
 이후 AWS Ubuntu 사용
 
