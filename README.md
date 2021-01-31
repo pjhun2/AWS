@@ -26,7 +26,7 @@ OS 확인 후 아래 선택 버튼으로 생성 진행
 EC2 무료 제공 cpu와 메모리 확인 후 검토 및 시작
 ![image](https://user-images.githubusercontent.com/74689088/106374501-4ad44880-63c7-11eb-9153-182eac4af175.png)
 
-기본적으로 0.0.0.0으로 모든 대역 허용
+기본적으로 0.0.0.0으로 모든 대역 허용 \n
 설정을 변경하려면
 6. 보안 그룹 구성 -> 소스 -> 드롭박스에서 내 IP로 지정
 ![image](https://user-images.githubusercontent.com/74689088/106374531-75260600-63c7-11eb-8c4f-a5225da0f0e4.png)
