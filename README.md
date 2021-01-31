@@ -43,9 +43,9 @@ EC2 무료 제공 cpu와 메모리 확인 후 검토 및 시작
 ![image](https://user-images.githubusercontent.com/74689088/106374937-f763f980-63ca-11eb-9552-d8f064bbdd20.png)
 
 할당된 IPV4 주소 클릭
-![image](https://user-images.githubusercontent.com/74689088/106374968-4578fd00-63cb-11eb-937f-dea4b8368ff8.png)  
-
-탄력적 IP 주소 연결
+![image](https://user-images.githubusercontent.com/74689088/106374968-4578fd00-63cb-11eb-937f-dea4b8368ff8.png)    
+            
+탄력적 IP 주소 연결  
 ![image](https://user-images.githubusercontent.com/74689088/106374983-5cb7ea80-63cb-11eb-8bfc-d187193b3d9e.png)    
   
 인스턴스 선택 후 연결   
